@@ -7,7 +7,7 @@ function Header() {
                 </a>
                 <ul id='nav-mobile' className='right hide-on-med-and-down'>
                     <li>
-                        <a href='https://kanagat01.github.io/react-movies/'>
+                        <a href='https://github.com/Kanagat01/react-movies'>
                             Repo
                         </a>
                     </li>
