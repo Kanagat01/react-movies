@@ -1,12 +1,20 @@
 function Header() {
-    return  <nav className="blue darken-4">
-        <div className="nav-wrapper">
-            <a href="#!" className="brand-logo">Logo</a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-                <li><a href="#!">Repo</a></li>
-            </ul>
-        </div>
-     </nav>
+    return (
+        <nav className='blue darken-4'>
+            <div className='nav-wrapper'>
+                <a href='#!' className='brand-logo'>
+                    React Movies by Kana
+                </a>
+                <ul id='nav-mobile' className='right hide-on-med-and-down'>
+                    <li>
+                        <a href='https://kanagat01.github.io/react-movies/'>
+                            Repo
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    );
 }
 
-export { Header }
+export { Header };
